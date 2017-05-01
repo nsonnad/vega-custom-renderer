@@ -1,11 +1,25 @@
 {
-  "name": "vega-test",
+  "name": "vega-custom-renderer",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nikhil Sonnad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vega-parser": "^1.0.0-beta.50",
+    "vega-view": "^1.0.0-beta.31"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsonnad/vega-custom-renderer.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/nsonnad/vega-custom-renderer/issues"
+  },
+  "homepage": "https://github.com/nsonnad/vega-custom-renderer#readme",
+  "description": ""
 }
